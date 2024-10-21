@@ -1,0 +1,528 @@
+
+/* Navbar box1 css*/
+*{
+    margin:0;
+    font-family: arial;
+   border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:black;
+    color: white;
+    display: flex;
+   
+   transition: top 0.3s; 
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.nav-logo{
+    height: 60px;
+    width: 120px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon.webp");
+    background-size: cover;
+    
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+/*box 2 css*/
+#name{
+    font-size: 0.85rem;
+   color: #cccccc;
+   margin-left:  15px;
+}
+#place{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+/*box 3 css*/
+.nav-search{
+    margin-left: 25px;
+    display: flex;
+ width: 620px;
+ height: 40px;
+ border-radius: 4px;
+ 
+}
+.select{
+    color:#433939;
+    width: 52px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+    border:none;
+    
+}
+.select:hover{
+    cursor: pointer;
+    background-color:#f8f7f7;
+    color:rgb(33, 32, 32);
+    
+}
+input{
+    width:496.5px;
+    border:none;
+}
+.search-icon{
+    background-color:rgb(223, 166, 109);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 45px;
+    display:flex;
+    justify-content:center;
+   align-items: center;
+   font-size: 1.5rem;
+   color: black;
+}
+.search-icon:hover{
+    cursor: pointer;
+    width: 47px;
+}
+.nav-eng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-eng:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+.flag{
+    background-image: url("flag.jpeg");
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+/*box4  css */
+#p1{
+    font-size :.80rem;
+}
+.nav-signin:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+#p3{
+    font-size :.80rem;
+}
+/*box5  css */
+.nav-return:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+.fa-solid{
+    font-size:1.5rem;
+}
+/*box6  css */
+.nav-cart i{
+    font-size:30px;
+}
+.nav-cart{
+    font-size:0.85rem;
+}
+
+.nav-cart:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+
+/*Panel css */
+.panel{
+    display: flex;
+    height: 40px;
+    width:100%;
+    background-color: #232f3e;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.panel-all{
+display: flex;
+align-items: center;
+}
+.panel-all :hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+
+.panel-all i{
+    margin-right: 10px;
+}
+.panel-options p{
+    display: inline;
+    margin-right: 20px;
+    width: 90%;
+    font-size:14px;
+}
+#a:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+
+.panel-fest:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+}
+/* hero-sec*/
+.hero-sec{
+    position: relative;
+    background-image: url("Large image.jpg");
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1)
+  
+}
+.hero-sec:hover {
+    animation: changeBackgrounds 15s 1s  infinite;
+}
+@keyframes changeBackgrounds{
+    0%{
+        background-image: url("Large image.jpg");
+    }
+    20% {
+        background-image: url("hero.jpg");
+    }
+    40% {
+        background-image: url("hreo1.jpg");
+    }
+    60% {
+        background-image: url("hero3.jpg");
+    }
+    80% {
+        background-image: url("hero2.jpg");
+    }
+    100% {
+        background-image: url("Large image.jpg"); /* Optionally return to the first image */
+    }
+}
+.shop-sec{
+    position: absolute; /* Absolute position relative to the parent */
+    bottom: 0; /* Aligns the child div to the bottom of the parent */
+    width: 100%; /* Optional: Full width */
+    height: 380px; /* Set the height of the child div */
+    background-color: transparent;/* Semi-transparent background for visibility */
+    text-align: center; /* Optional: Center the content inside */
+    display: flex;
+    justify-content:space-evenly;
+}
+.box{
+    height: 380px;
+    width: 295px;
+    background-color: white;
+}
+.box1-image{
+    width: 280px;
+    height: 290px;
+    background-image: url("phone1.jpg");
+  background-size:contain;
+}
+
+.details{
+    width: 232px;
+    height: 24px;
+   
+}
+#s1{
+    height:24px;
+    width: 55px;
+    background-color: #cc0c39;
+    color:white;
+}
+#s2{
+    height:15px;
+    width: 116px;
+    color: #cc0c39;
+    
+}
+#s3{
+    font-size: 18px;   
+}
+#s4{
+    font-family: Arial;
+    color: rgb(99, 94, 88);
+    font-size: 12px;
+    margin-left:4px;
+}
+#s5{
+    font-size:12px;
+    color: rgb(99, 94, 88);
+}
+
+#s6{
+    color: rgb(56, 54, 53);
+    display: flex;
+    margin-left: 19px;
+}
+
+.box2-image{
+    width: 280px;
+    height: 290px;
+    background-image: url("laptop.jpg");
+  background-size:contain;
+}
+
+.box3-image{
+    width: 280px;
+    height: 290px;
+    background-image: url("phone2.jpg");
+  background-size:cover;
+}
+
+.box4-image{
+    width: 280px;
+    height: 290px;
+    background-image: url("phone3.jpg");
+  background-size:cover;
+}
+.price{
+    display: flex;
+    margin-left: 19px;
+}
+.next-hero{
+height: 380px;
+width:100%;
+background-color: white;
+display: flex;                
+justify-content: center;     
+align-items: center;           
+}
+
+.plane{
+    width: 90%;               
+    height: 300px;
+    background-color:rgb(216, 193, 193); 
+    background-image: url("flight.jpg");
+}
+.utensils{
+    height: 380px;
+    width:100%;
+    background-color: transparent;
+    display: flex;                
+    justify-content: center;     
+    align-items: center;           
+    }
+    
+    .utensils-box{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;               
+        height: 300px;
+        background-color:transparent; 
+    }
+.image1{
+    width: 56px;
+    height: 200px;
+    background-image: url("bottle.jpg");
+   
+}
+.image2{
+    width: 182px;
+    height: 200px;
+    background-image: url("bottle2.jpg");
+   
+}
+.image3{
+    width: 223px;
+    height: 200px;
+    background-image: url("castrol.jpg");
+   
+}
+.image4{
+    width: 212px;
+    height: 200px;
+    background-image: url("mixer.jpg");
+   
+}
+.image5{
+    width: 246px;
+    height: 200px;
+    background-image: url("stand.jpg");
+   
+}
+.last{
+    height:765px;
+    width: 100%;
+    background-color: #0f1111;
+}
+.back-to-top{
+    height: 34px;
+    width: 100%;
+    color: white;
+    background-color: #334459;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.foot{
+    width: 200px;
+    height: 294px;
+    color: white;
+    background-color:transparent;
+    margin-top: 30px;  
+}
+.footer{
+    height: 506px;
+    width: 100%;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    align-items: start;
+}
+a:hover{
+    text-decoration: underline;
+}
+.know{
+    margin-left: 35px;
+}
+li{
+    list-style-type: none; 
+   margin-top: 20px;
+        }
+/* For screens smaller than 768px (common for tablets and phones) */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: 50px;
+        font-size: 14px;  /* Smaller font size for navbar */
+    }
+
+    .nav-logo {
+        width: 90px;
+        height: 50px;
+    }
+
+    .nav-search {
+        width: 100%;  /* Make the search bar full width */
+        margin-left: 0;
+        height: 35px; /* Slightly reduce the height */
+    }
+
+    input {
+        width: 75%;  /* Adjust input field width */
+    }
+
+    .search-icon {
+        width: 35px;  /* Adjust the icon size */
+        font-size: 1.2rem;  /* Reduce the font size */
+    }
+
+    .hero-sec {
+        height: 400px;  /* Reduce hero section height */
+    }
+
+    .box {
+        width: 95%;  /* Adjust product box width for smaller screens */
+        height: auto;  /* Let the height adjust automatically */
+        margin-bottom: 20px;
+    }
+
+    .shop-sec {
+        flex-direction: column;  /* Stack items vertically */
+        align-items: center;
+    }
+
+    .panel {
+        flex-direction: column;  /* Stack the navigation panel */
+        height: auto;
+    }
+
+    .panel-options p {
+        font-size: 12px; /* Smaller text in navigation panel */
+        margin-right: 10px;
+    }
+
+    .footer {
+        flex-direction: column;  /* Stack footer content vertically */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot {
+        width: 100%;  /* Make footer sections full width */
+        margin: 10px 0;
+    }
+}
+
+/* For screens smaller than 480px (typical for phones) */
+@media only screen and (max-width: 480px) {
+    .navbar {
+        height: 45px;
+        font-size: 12px;  /* Reduce the font size further */
+    }
+
+    .nav-logo {
+        width: 70px;
+        height: 45px;
+    }
+
+    .nav-search {
+        width: 90%;  /* Adjust search bar width */
+        margin-left: 0;
+    }
+
+    .select {
+        width: 45px;  /* Adjust select width */
+    }
+
+    input {
+        width: 70%;  /* Further reduce input field width */
+    }
+
+    .search-icon {
+        width: 30px;  /* Adjust search icon size */
+        font-size: 1rem;
+    }
+
+    .hero-sec {
+        height: 300px;  /* Further reduce hero section height */
+    }
+
+    .box {
+        width: 100%;  /* Full width on smaller screens */
+    }
+
+    .shop-sec {
+        flex-direction: column;  /* Stack items vertically */
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .panel-options p {
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .footer {
+        flex-direction: column;  /* Stack footer items vertically */
+    }
+
+    .foot {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
